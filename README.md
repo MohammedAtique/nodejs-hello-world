@@ -5,7 +5,7 @@ This is a simple Hello World app built with NodeJS.
 1. Run these commands to install the necessary tools
 ```
 sudo apt update -y
-sudo apt install docker.io docker-compose -y
+sudo apt install git docker.io docker-compose -y
 sudo usermod -aG docker $USER
 newgrp docker
 ```
