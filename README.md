@@ -1,4 +1,4 @@
-# Simple Notes App
+# Simple Hello-World App
 This is a simple Hello World app built with NodeJS.
 
 ## Installation
