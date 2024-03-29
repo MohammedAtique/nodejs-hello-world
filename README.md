@@ -27,7 +27,7 @@ docker run -d -p 3000:3000 hello-world:latest
 ```
 
 ### Via Docker-Compose
-1. Build the app
+1. Build and run the app
 ```
 docker-compose up -d
 ```
