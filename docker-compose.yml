@@ -1,0 +1,16 @@
+---
+version: '3'
+
+services:
+  nodejs-hello-world:
+    container_name: nodejs-hello-world
+    build:
+      context: .
+    volumes:
+      - nodejs_data:/app
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+
+volumes:
+  nodejs_data:
